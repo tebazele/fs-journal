@@ -19,3 +19,14 @@ const must be initialized at declaration
 
 const object values can be changed
 
+<!-- SECTION lecture notes 10/31/22 -->
+undefined: unknown nothing
+null: known nothing
+both are "any" datatype
+
+key and value pairs inside objects have no order;
+
+// clear() -clears console
+
+reference type is a link that gets created between values;
+
