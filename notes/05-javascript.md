@@ -30,3 +30,19 @@ key and value pairs inside objects have no order;
 
 reference type is a link that gets created between values;
 
+<!-- SECTION lecture notes 11/1/22 -->
+notes in PATH: Source/Codeworks/js-objects
+
+<!-- SECTION lecture notes 11/3/22 -->
+
+notes in PATH: Source/Codeworks/zookeeper
+-good example of setTimeout() and also css animation
+
+cubic-bezier.com : shows animation options
+
+disable context-menu -- 
+
+re-read: https://codeworksacademy.com/fs-student-guide/resources/wk2/06-Coding-Mistakes
+Look up: ESLint and Prettier
+
+Look up: single-threaded environments, stack structure, config file?
