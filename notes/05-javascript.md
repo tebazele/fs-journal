@@ -46,3 +46,29 @@ re-read: https://codeworksacademy.com/fs-student-guide/resources/wk2/06-Coding-M
 Look up: ESLint and Prettier
 
 Look up: single-threaded environments, stack structure, config file?
+
+<!-- ANCHOR Week 3 -->
+11/7/22
+
+<!-- NOTE terminology: transpile -->
+
+HW: section 1 of advanced-javascript videos
+https://training.codeworksacademy.com/course/advancing-with-javascript/enroll?code=TUPC5-WQAY7
+
+figjam: figma light
+
+MVC(S): design pattern (model view controller service) organizing code to create a scalable project
+
+View: html representation of data in app
+Controller: Takes in actions from user, draws data to DOM (only thing user ever has access to)
+Service: Business logic happens (anything that modifies data)
+Appstate: single source of truth or where all the app's data will be stored
+Model: blueprint of what the data in the appstate will look like @param {type} paramVar
+
+
+in terminal: bcw create TEMPLATE
+
+<!-- NOTE notes in /combatTracker -->
+
+default type button in form is submit
+
