@@ -72,3 +72,59 @@ in terminal: bcw create TEMPLATE
 
 default type button in form is submit
 
+<!-- SECTION 11/8/22 -->
+
+exporting just an instance of service makes the service class untouchable by the user
+
+in template, utils: writer.js setTEXT and setHTML
+
+bs class to make hover awesome: "selectable"
+html: title='name or whatever you want user to see' gives you info on mouseover
+
+template variables go into the appState.js: get methods with this.key
+
+activeGachamon var in appState = null
+
+register a listener: in controller that listens for changes in the appSTate
+
+<!-- NOTE this is the logic -->
+watch activeGachamon and if it changes, draw it
+
+appState.on('activeGachamon', this.drawActive) <!-- no parens -->
+
+set triggers the listener (set is an equal sign)
+
+add to array using equal sign: spread operator (...); when placed before a collection, it takes things out of the collection
+
+data format for large arrays: objects (parameters in class draw from object)
+
+css filter: hue-rotate, invert (alter colors)
+
+appState.emit('thing listener is attached to')
+
+codepen.io: go from SAwesomeCSS to CSS and back
+
+<!-- SECTION 11/9/22 -->
+
+notes in Source/CodeWorks/craigslist-site
+
+Alerts! sweetalert2.github.io; Pop.js 
+
+<!-- NOTE declare method -->
+cmmd period on undeclared method
+
+cmmd click on method or class name takes you to it
+
+remove car with filter:
+give me a new array of cars with all the cars that have ids that DON'T match the one I passed in
+
+FormHandler: let formData = getFormData(form)
+
+BootStrap Modals: paste in underneath the footer
+
+js Date module: this.createdAt = new Date()
+string interp: this.createdAt.toLocaleDateString()
+
+static means a method that only exists on the class before it's been instantiated (grab something off the model)
+
+
