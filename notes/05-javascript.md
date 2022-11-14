@@ -127,4 +127,37 @@ string interp: this.createdAt.toLocaleDateString()
 
 static means a method that only exists on the class before it's been instantiated (grab something off the model)
 
+<!-- SECTION 11/10/22 -->
+
+Steps 
+1. makes files: Model, Controller, Service
+2. Build model (constructor and get template method) and export it
+3. AppState -- create data
+4. Controller -- export class, create constructor (log the connection)
+5. Service -- export instance (log the connection)
+6. App.js -- create instance of Controller class
+7. Create _draw function in Controller (create id in index file)
+8. Block out actual template in html and place in template getter in model
+9. Block out form
+10. Create onsubmit "createData()"function to call in the form
+11. Do something with form data -- pass it to service to add it to your array of objects
+12. Handle the form Data, turn into an object of Object class in Service,
+13. Set event listener on array to draw when something changes
+
+
+get Computed... (property on this that performs an action and returns a static)
+
+.toLowerCase/uppercase 
+get rid of commas and punctuation, RegEx and .replace 
+website about RegEx 'regexr.com'
+
+Logic: unlocking active case -- obj key (unlocked: false), change unlocked to true and emit active case (unlockActiveCase), if prompt returns true, drawCase, if prompt returns true, 
+
+saveCase() -- textarea innerText is .value, attribute readonly unless unlocked
+
+saveState -- whenever obj Array changes 
+loadState -- in appState params: key, format and class
+
+Double check: unlock/save button
+
 
