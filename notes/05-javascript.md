@@ -1,6 +1,8 @@
 # JavaScript
 
+<!-- #region (collapsed) [notes October] -->
 <!-- SECTION variables -->
+
 <h1>Variables</h1>
 
 let and var are hoisted within their scope
@@ -29,7 +31,9 @@ key and value pairs inside objects have no order;
 // clear() -clears console
 
 reference type is a link that gets created between values;
+<!-- #endregion -->
 
+<!-- #region (collapsed) [notes November] -->
 <!-- SECTION lecture notes 11/1/22 -->
 notes in PATH: Source/Codeworks/js-objects
 
@@ -160,4 +164,46 @@ loadState -- in appState params: key, format and class
 
 Double check: unlock/save button
 
+<!-- SECTION notes 11/14/22  -->
+Asynchronous code 
+notes in Source/Codeworks/hpTradingCards
+<!-- NOTE working with apis -->
 
+hp-api : Harry Potter api
+
+herokuapp - someone's hosting an api for you, network tab shows JSONified data
+
+response.json(): Note that despite the method being named json(), the result is not JSON but is instead the result of taking JSON as input and parsing it to produce a JavaScript object.
+
+Network tab: what files did my computer need to render stuff
+
+cards Service is the one who actually grabs the data from api
+
+const response = await fetch('api url')
+
+http.cat : Status
+
+script:axios - library that makes fetch requests easier
+
+response.data is just pojos, we need to map to class Card
+.map(cardData => new Card(dardData))
+
+domain.com/(route parameter)
+
+async functionName() {
+    try {
+        this.
+    }
+    catch (error) {
+        report error message
+    }
+}
+
+catch stops the code from running the next line and reports the error
+<!-- NOTE network requests should begin in a try catch -->
+
+opentdb.com/api_config.php (Trivia api)
+
+check object for data key
+
+<!-- #endregion -->
