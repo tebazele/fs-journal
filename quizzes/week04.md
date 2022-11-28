@@ -38,7 +38,7 @@ Application Programming Interface
 **8.** In the `MVC` design pattern, who is responsible for making calls to `APIs`?
 <!-- enter you answer in the space below -->
 ```
-Service, I think
+Service
 ```
 **9.** What is the purpose of encapsulation in programming?
 <!-- enter you answer in the space below -->
@@ -48,7 +48,7 @@ To protect data and private functionality from manipulation by the user in the v
 **10.** What is `HTTP` response code for a successful request?
 <!-- enter you answer in the space below -->
 ```
-404
+200
 ```
 **11.** What is a 500 error?
 <!-- enter you answer in the space below -->

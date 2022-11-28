@@ -206,4 +206,89 @@ opentdb.com/api_config.php (Trivia api)
 
 check object for data key
 
+
+<!-- SECTION notes 11/15/22 -->
+schema: https://bcw-sandbox.herokuapp.com/ (/api/cars)
+
+in controller:
+async methodName() {
+    try {
+        await //do something, get data...
+    } catch (error) {
+        Pop.error or console.log(error)
+    }
+}
+
+In service:
+const response(res) = await axios.get(url)
+
+async createCar() {
+    window.even.preventDefault()
+
+}
+
+axios.get
+add: axios.post
+axios.delete('url' + id(id was passed in as the parameter))
+edit: axios.put(url + id, send new data)
+
+async/await -- use when your code leaves your machine or the load time is out of your control
+
+<!-- SECTION notes 11/16/22 -->
+Multiple apis: 
+
+take data from api and make it your own api/name/data
+<!-- NOTE  do this in the service-->
+axios instance: const variable = axios.create({
+    baseURL: ''
+})
+
+
+
+dndApi.get()
+
+Step 1: get objects from api
+Step 2: write constructor for model
+
+Add and remove spells from myspells
+- add a button, grab activespell from spells array and push it as a Spell object to my api and my array and redraw myspells
+
+'Add' on spells from original api
+'remove' on spells from myspells
+
+get ComputeButtons()
+
+for checkboxes: onchange="function()", checked attribute
+
+const res = axios.put(is, data)
+
+<!-- SECTION Notes 11/17/22 -->
+
+use the Network tab
+api.nasa.gov (picture of the day)
+
+Api Key: generate api key, 
+
+Start by created axios.create instances for apis you're interacting with;
+grab from an api and save to your sandbox api
+
+axios.create({
+    baseURL: '',
+    timeout: 8000, (send me an error if this is taking forever),
+    params: {api_key: 'mykey'}
+})
+axios looks for params and tacks them on the end of the base url
+
+CSS tip: on hover for one elem, target another element: +
+nasa-apod lecture
+
+html input: type=date (in js: grab date picker, set value to today's date and max-value to today's date, format to how our api date is: toISOString, .substring(0, 10))
+<!-- FIXME  -->
+turn null checks back on
+
+I don't need to pull the apods back down from my sandbox as is, they're more like bookmarks to the actual api
+
+you can target your offCanvas "bootstrap.OffCanvas"
+
+
 <!-- #endregion -->
