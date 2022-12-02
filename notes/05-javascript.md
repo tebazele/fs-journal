@@ -292,3 +292,11 @@ you can target your offCanvas "bootstrap.OffCanvas"
 
 
 <!-- #endregion -->
+
+<!-- #region [NOTES December] -->
+
+<!-- SECTION December notes Week 5 -->
+
+
+
+<!-- #endregion -->
