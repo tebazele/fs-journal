@@ -4,13 +4,13 @@
 **1.** Describe the two ways to bind Data in Vue?
 <!-- enter you answer in the space below -->
 ```
-
+v-bind and v-model
 ```
 
 **2.** The `SPA` acronym stands for what?
 <!-- enter you answer in the space below -->
 ```
-
+single-page-application
 ```
 **3.** What are some of the advantages/uses of a `SPA` over a traditional one?
 <!-- enter you answer in the space below -->
