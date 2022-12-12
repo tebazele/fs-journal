@@ -122,7 +122,11 @@ go from player up to the matches .get('/:id/matches') -- called from Player cont
 OR mongo way: { $or: [{}, {}] } -- this is very specific to mongoose
 query casting (mongodb manual)
 
+when posts load, we want the delete button to 
 
+post.userId === userInfo of the person who's logged in
+
+<!--  -->
 
 <!-- #endregion -->
 
@@ -182,10 +186,12 @@ CreepsService--getCreeps using string interpolation
 
 CreepsController-- 
 
+<!-- SECTION December 5, 2022 -->
 
-
+Vue notes
 
 
 
 
 <!-- #endregion -->
+
