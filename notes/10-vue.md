@@ -243,6 +243,11 @@ includesMe: computed(()=> props.project.projectImgs.includes('AppState.account.p
 - it might be easiest to just write a python loop to add the class to the dom
 - template += class
 
+<!-- SECTION Dec 12, 2022 -->
+
+Some notes in PostIt
+
+
 
 
 

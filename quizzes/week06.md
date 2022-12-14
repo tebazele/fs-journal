@@ -3,7 +3,7 @@
 **1.** What is the entrypoint of an application?
 <!-- enter you answer in the space below -->
 ```
-router.js?? I'm honestly not sure here
+main.js
 ```
 **2.** What is the difference between a vue `component` and `page`?
 <!-- enter you answer in the space below -->
@@ -30,7 +30,7 @@ This has to do with extending classes. Objects from child classes can use proper
 **6.** Which component in Vue does the vue-router use to mount pages onto?
 <!-- enter you answer in the space below -->
 ```
-app.vue
+app.vue <router-view />
 ```
 **7.** What is the difference between the `AppState` and the state object within a component?
 <!-- enter you answer in the space below -->
@@ -45,7 +45,7 @@ To get/post/put/delete and otherwise change the data
 **10.** Which file contains the root element of your Vue project?
 <!-- enter you answer in the space below -->
 ```
-App.vue
+index.html??
 ```
 **11.** The ______ tag is used to alter the styling of your entire Vue project.  Adding the ______ attribute to this tag will limit it to just the component it exists.  Fill in the blank.
 <!-- enter you answer in the space below -->
@@ -55,5 +55,5 @@ style/ scoped
 **12.** What is the Vue method used to create watchable objects such as `state` or `AppState`?
 <!-- enter you answer in the space below -->
 ```
-reactive() computed()
+reactive() computed() ref()??
 ```
