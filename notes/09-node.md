@@ -300,6 +300,32 @@ masonry -- diff image heights that stack nicely (postIt figma)
 
 No account on refresh? -- authService - place stuff here that you want to run 
 
+<!-- SECTION Dec 14, 2022 -->
+
+Access Control: archived means you can't modify it
+
+AlbumsService: Instead of findById, findOne({_id: id, archived: false})
+another check: check for archived, true throw forbidden
+
+where are we trying to prevent the user from modifying data?
+- create picture, create collabs, remove collab
+
+Check if event is canceled 
+
+<!-- NOTE can't collab more than once -->
+
+computed -- includes returns bool if it finds an 
+can't use includes to compare two objects -- they'll always be different 
+
+use .find
+
+<!-- NOTE TWO MODALS!!!! -->
+putting a class or id inside component tag causes first line of component to inherit that class or id
+
+If there's a button that you aren't allowed to interact with, hide it.
+If there's a button you may be able to interact with IF some condition(you are logged in/if there may be more pages to display later/etc.), disable it
+
+
 
 <!-- #endregion -->
 

@@ -108,5 +108,23 @@ masonry -- diff image heights that stack nicely (postIt figma)
 
 No account on refresh? -- authService - place stuff here that you want to run 
 
+<!-- SECTION Dec 14, 2022 -->
+
+Access Control: archived means you can't modify it
+
+AlbumsService: Instead of findById, findOne({_id: id, archived: false})
+another check: check for archived, true throw forbidden
+
+where are we trying to prevent the user from modifying data?
+- create picture, create collabs, remove collab
+
+Check if event is canceled 
+
+<!-- NOTE can't collab more than once -->
+
+computed -- includes returns bool if it finds an 
+can't use includes to compare two objects -- they'll always be different 
+
+use .find
 
 <!-- #endregion -->
